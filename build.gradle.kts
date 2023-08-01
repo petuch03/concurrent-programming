@@ -23,7 +23,6 @@ dependencies {
     implementation(kotlin("reflect"))
     testImplementation(kotlin("test-junit"))
     testImplementation("org.jetbrains.kotlinx:lincheck:2.16")
-    testImplementation("com.amazonaws:aws-java-sdk-s3:1.12.429")
 }
 
 tasks {
